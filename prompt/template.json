@@ -1,0 +1,16 @@
+{
+    "name": null,
+    "input_variables": [
+        "length",
+        "topic"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n    Describe {topic} in {length} sentences.\n    If you do not have enough information just repsond by saying not enough inforamtion available rather than guessing randomly. \n    If the given length is long and the concept requires mathematical explanation please do so.\n    ",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
