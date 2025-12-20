@@ -1,2 +1,2 @@
-output/.env
-output/
+*.env
+loader/.env
